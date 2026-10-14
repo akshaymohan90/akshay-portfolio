@@ -3,8 +3,11 @@
 [![Next.js 16](https://img.shields.io/badge/Next.js-16.2.6-black?logo=next.js)](https://nextjs.org/)
 [![React 19](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-akshay--mohan--portfolio-black?logo=vercel)](https://akshay-mohan-portfolio.vercel.app)
 
 Personal portfolio of **Akshay Mohan** — AI/ML Engineer & Software Developer building end-to-end ML pipelines, scalable REST APIs, and high-performance web systems.
+
+🌐 **Live URL**: [https://akshay-mohan-portfolio.vercel.app](https://akshay-mohan-portfolio.vercel.app)
 
 ---
 
