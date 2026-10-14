@@ -1,0 +1,5 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="32" fill="#121214"/>
+  <rect x="2" y="2" width="124" height="124" rx="30" stroke="rgba(255,255,255,0.08)" stroke-width="4"/>
+  <text x="50%" y="80" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="56" font-weight="900" letter-spacing="-2" fill="#FFFFFF">AM</text>
+</svg>

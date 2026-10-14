@@ -1,0 +1,145 @@
+@use "../../abstracts/index" as *;
+
+
+.tf-footer {
+    .quote-text {
+        margin-bottom: 8px;
+    }
+
+    .br-line {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        background-color: var(--black-6);
+    }
+
+    .foot-inner {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 16px;
+        width: 100%;
+        overflow: hidden;
+
+        .isak {
+            max-width: 100%;
+            width: 100%;
+
+            svg {
+                width: 100%;
+                max-width: 520px;
+                height: auto;
+                max-height: 90px;
+                display: block;
+            }
+        }
+    }
+
+    .foot-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 20px;
+        width: 100%;
+
+        .isak {
+            max-width: 428px;
+            width: 100%;
+        }
+    }
+
+    .foot-links {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px 12px;
+
+        .foot-link {
+            font-size: 13.5px;
+            color: var(--black-56);
+            transition: all 0.2s ease;
+            white-space: nowrap;
+
+            &:hover {
+                color: var(--primary);
+            }
+
+            &.whatsapp-link {
+                color: #25D366;
+            }
+        }
+
+        .sep {
+            color: var(--black-40);
+            user-select: none;
+            font-size: 12px;
+        }
+    }
+
+    .f-logo {
+        background-color: var(--white);
+        width: 68px;
+        height: 68px;
+        border-radius: 50%;
+        @include flex(center, center);
+        box-shadow: var(--shadow);
+        flex-shrink: 0;
+    }
+
+    .text-nocopy {
+        white-space: normal;
+        line-height: 1.5;
+        font-size: 13.5px;
+    }
+
+    .isak {
+        width: auto;
+    }
+
+    @include res(md) {
+        .foot-bottom {
+            flex-direction: column-reverse;
+            align-items: flex-start;
+            gap: 20px;
+            padding-bottom: 56px;
+        }
+
+        .foot-links {
+            gap: 8px 10px;
+            width: 100%;
+
+            .foot-link {
+                padding: 6px 14px;
+                border-radius: 999px;
+                background-color: var(--black-6);
+                border: 1px solid var(--black-6);
+                font-size: 13px;
+                display: inline-flex;
+                align-items: center;
+            }
+
+            .sep {
+                display: none;
+            }
+        }
+
+        .text-nocopy {
+            font-size: 12.5px;
+            width: 100%;
+        }
+
+        .f-logo {
+            width: 40px;
+            height: 40px;
+
+            .logo {
+                width: 20px;
+                padding-bottom: 4px;
+            }
+        }
+
+        .br-line {
+            margin-top: 36px;
+            margin-bottom: 36px;
+        }
+    }
+}
